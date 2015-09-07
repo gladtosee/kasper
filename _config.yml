@@ -7,7 +7,7 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /kasper
-domain_name: 'http://gladtosee.github.io'
+domain_name: 'http://gladtosee.github.io/kasper'
 google_analytics: 'UA-XXXXXXXX-X'
 
 # Details for the RSS feed generator

@@ -17,5 +17,8 @@ title: what?
 - KaTeX javascript lib사용
   - [관련설명](http://willdrevo.com/latex-equation-rendering-in-javascript-with-jekyll-and-katex/)
   - 이 사이트가 좀 더 편하게 사용하도록 라이브러리 수정해서 제공 [https://cben.github.io/sandbox/katex](https://cben.github.io/sandbox/katex)
+  - [https://khan.github.io/KaTeX/](https://khan.github.io/KaTeX/)
+  - [https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX](https://github.com/Khan/KaTeX/wiki/Function-Support-in-KaTeX)
+  - [http://www.intmath.com/cg5/katex-mathjax-comparison.php](http://www.intmath.com/cg5/katex-mathjax-comparison.php)
 - LaTeX 문법 설명
   - [https://en.wikibooks.org/wiki/LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics)

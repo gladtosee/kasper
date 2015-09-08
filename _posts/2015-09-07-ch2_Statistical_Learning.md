@@ -13,65 +13,77 @@ Statistical Learning에 대한 기본 개념 설명
     * In other words, our goal is to develop an accurate model that can be used to predict sales on the basis of the three media budgets.
 * inputs 은 여러 다른 이름을 가지고 있는데 predictors, independent variables, features, or sometimes just variables 등으로 불린다.
 
-{% highlight text %}
-위의 예 참고
-  광고 예산 = input variable
-  판매량 = output variable
-
-input variable은 일반적으로 X로 표현, $X_1$은 TV budget, X2 the radio budget, and X3 the newspaper budget
-inputs 은 여러 다른 이름을 가지고 있는데 predictors, independent variables, features, or sometimes just variables 등으로 불린다.
-output variable(이 경우 판매량)은 response or dependent variable로 불리고 Y로 표현한다.
-이 책에서는 이 용어를 사용할 것 이다.
-{% endhighlight %}
-
-요게 잘 나올까? $X_{1}$ ㅎㅎ   
-$Y = f(x)$ 이건 어떻게??  
-
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-
-The *Gamma function* satisfying $\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$ is via through the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
+![TV, RADIO, NEWSPAPER 판매량]({{ site.baseurl }}/images/intro/f2.1.png "TV, RADIO, NEWSPAPER 판매량")
 
 
-Processed by Jekyll into https://cben.github.io/sandbox/katex
+* 용어 설명
+  * 광고 예산 = input variable
+  * 판매량 = output variable
+  * input variable은 일반적으로 X로 표현, $X\_1$은 TV budget, $X\_2$ the radio budget, and $X\_3$ the newspaper budget 
+  * inputs 은 여러 다른 이름을 가지고 있는데 predictors, independent variables, features, or sometimes just variables 등으로 불린다.
+  * output variable(이 경우 판매량)은 response or dependent variable로 불리고 Y로 표현한다.
+  * 이 책에서는 이 용어를 사용할 것 이다.
 
-KaTeX loaded in output via Jekyll template `_layouts/katex.html`.
+quantitative response $Y$와 $p$ different predictors, $X\_1, X\_2, . . . , X\_p$사이에는 아래 함수와 같은 관계가 있다고 가정한다.  
+$$Y = f(X) + \epsilon$$
+f는 $X\_1, X\_2, . . . , X\_p$의 알려지지 않은 함수이고 $\epsilon$는 *error term*이다.
+f는 input variable 에서 output variable 을 연결하는 알려지지 않은 함수, 실제 세계에서 입력변수와 출력변수의 관계는 알 수 없음.(대략 추정할 뿐이지 수학적으로 완벽히 모른다는 의미)
+이런 상황에서 f는 관찰되는 것에 의해 추정한다.
 
-Delimiters [recognized by kramdown](http://kramdown.gettalong.org/syntax.html#math-blocks):
+`In essence, statistical learning refers to a set of approaches for estimating f.` In this chapter we outline some of the key theoretical concepts that arise in estimating f, as well as tools for evaluating the estimates obtained.
 
-inline $$ \frac{kram}{down} \sum_0^\infty $$ text.
+* `statistical learning은 f를 추정하기위한 접근의 집합을 말한다.`
 
-$$ \frac{kram}{down} \sum_0^\infty $$
-
-The second is display math because it occurs alone in a block.
+##### 2.1.1 Why Estimate $f$   ?
+$f$를 추정하려고하는 2가지 주요한 이유가 *prediction* and *inference* 이다.
 
 
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
-![my photo]({{ site.baseurl }}/images/intro/f2.1.png "하하")
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
 
 
 
-This is a test for $\KaTeX$, $a^2 + b^2 = c^2$, if you want it in display style, try: $$\text{e} = \lim_{n\to\infty} \left(1+\frac{1}{n}\right)^n,$$ and   
+##### 2.1.2 How Do We Estimate $f$   ?
+그럼 이제 어떻게 $f$를 추정하는지에 대해 설명한다.
 
-$$ \pi = \lim_{k=0}^\infty \, \frac{1}{16^k} \left( \frac{4}{8k+1} - \frac{2}{8k+4} - \frac{1}{8k+5} - \frac{1}{8k+6} \right).$$
+
+
+
+
+
+
+##### 2.1.3 The Trade-Off Between Prediction Accuracy and Model Interpretability
+
+
+##### 2.1.4 Supervised Versus Unsupervised Learning
+
+
+##### 2.1.5 Regression Versus Classification Problems
+
+
+#### 2.2 Assessing Model Accuracy
+
+##### 2.2.1 Measuring the Quality of Fit
+
+##### 2.2.2 The Bias-Variance Trade-Off
+
+##### 2.2.3 The Classification Setting
+
+####2.3 Lab: Introduction to R
+
+##### 2.3.1 Basic Commands
+
+##### 2.3.2 Graphics
+
+##### 2.3.3 Indexing Data
+
+##### 2.3.4 Loading Data
+
+##### 2.3.5 Additional Graphical and Numerical Summaries
+
+
+
+
+
+
 
 

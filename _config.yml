@@ -6,7 +6,7 @@ markdown: redcarpet
 highlighter: pygments
 logo: false
 paginate: 15
-baseurl: /kasper
+baseurl: /study_isl
 domain_name: 'http://gladtosee.github.io/kasper'
 #google_analytics: 'UA-XXXXXXXX-X'
 

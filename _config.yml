@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: 2015 ISL study
+#description: 통계 공부 정리
+meta_description: "통계 스터디 정리용 블로그"
 
 markdown: redcarpet
 highlighter: pygments
@@ -8,8 +8,8 @@ logo: false
 paginate: 15
 baseurl: /kasper
 domain_name: 'http://gladtosee.github.io/kasper'
-google_analytics: 'UA-XXXXXXXX-X'
+#google_analytics: 'UA-XXXXXXXX-X'
 
 # Details for the RSS feed generator
-url:            'blog url'
-author:         'Your Name'
+url: 'http://gladtosee.github.io/kasper'
+author: 'gladtosee'
